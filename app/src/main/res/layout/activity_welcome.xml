@@ -23,14 +23,13 @@
 		android:id="@+id/welcome_text"
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
-		android:textSize="24sp"
+		android:fontFamily="@font/montserrat_semi_bold"
+		android:text="Welcome To DTS VSGA"
 		android:textColor="#313131"
-		android:text="Welcome To Wakanda"
-		app:layout_constraintTop_toBottomOf="@id/calendar"
+		android:textSize="24sp"
 		app:layout_constraintLeft_toLeftOf="parent"
 		app:layout_constraintRight_toRightOf="parent"
-		android:fontFamily="@font/montserrat_semi_bold"
-		/>
+		app:layout_constraintTop_toBottomOf="@id/calendar" />
 
 	<TextView
 		android:id="@+id/sub_welcome"
